@@ -6,3 +6,6 @@ h1 {
 p {
   font-family: 'DM Sans', sans-serif;
 }
+#logo {
+  max-width: 80px;
+}
