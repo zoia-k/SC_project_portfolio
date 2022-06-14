@@ -1,11 +1,36 @@
-h1 {
-  color: blue;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+:root {
+  --heading-color: #560216;
+  --paragraph-color: #081e3b;
+  --background-color: #fffdfb;
+  --links-color: #dd4e69;
+  --text-blocks-color: #ffeee5;
+  --heading-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  --paragraph-font: 'DM Sans', sans-serif;
+}
+body {
+  background: var(--background-color);
+}
+h1,
+h2,
+h3 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+  text-align: center;
 }
 p {
-  font-family: 'DM Sans', sans-serif;
+  color: var(--paragraph-color);
+  font-family: var(--paragraph-font);
+}
+a {
+  color: var(--links-color);
 }
 #logo {
   max-width: 80px;
+}
+.text-centered {
+  text-align: center;
+}
+.text-block {
+  background: var(--text-blocks-color);
 }
