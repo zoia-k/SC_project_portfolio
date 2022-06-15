@@ -24,6 +24,12 @@ h1 {
   font-size: 86px;
   font-weight: bold;
 }
+h2 {
+  background: var(--background-color);
+  color: var(--links-color);
+  border: 1px solid var(--links-color);
+  border-radius: 4px;
+}
 h3 {
   font-size: 24px;
   opacity: 0.5;
