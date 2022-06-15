@@ -56,6 +56,12 @@ a {
 #img-owl {
   max-width: 60px;
 }
+#my-ava {
+  max-width: 100px;
+  border: 1px solid var(--links-color);
+  border-radius: 60px;
+  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
+}
 #coding-by {
   color: var(--heading-color);
   opacity: 0.5;
