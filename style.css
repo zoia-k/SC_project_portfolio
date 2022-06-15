@@ -58,6 +58,11 @@ a {
 .text-block {
   background: var(--text-blocks-color);
 }
+
+.btn {
+  font-family: var(--heading-font);
+}
+
 .contact-button {
   background: var(--heading-color);
   color: var(--background-color);
@@ -69,11 +74,30 @@ a {
   font-weight: bold;
   border: 1px solid var(--heading-color);
 }
+.about-button {
+  background: var(--links-color);
+  color: var(--background-color);
+}
+.about-button:hover {
+  background: var(--background-color);
+  color: var(--links-color);
+  font-size: larger;
+  font-weight: bold;
+  border: 1px solid var(--links-color);
+}
+.project-button {
+  background: var(--background-color);
+  color: var(--links-color);
+  border: 1px solid var(--links-color);
+}
+.project-button:hover {
+  background: var(--links-color);
+  color: var(--background-color);
+  font-size: larger;
+  font-weight: bold;
+}
 .my-links {
   display: flex;
   justify-content: space-around;
-  font-family: var(--heading-font);
-}
-.btn {
   font-family: var(--heading-font);
 }
