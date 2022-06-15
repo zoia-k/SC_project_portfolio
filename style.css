@@ -62,6 +62,13 @@ a {
   border-radius: 60px;
   box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
 }
+#home-text {
+  border-radius: 100px 10px;
+}
+#about-text {
+  border-radius: 10px 100px;
+}
+
 #coding-by {
   color: var(--heading-color);
   opacity: 0.5;
@@ -76,7 +83,6 @@ a {
 }
 .paragraph-text {
   background: rgba(86, 2, 22, 0.5);
-  border-radius: 100px 10px;
 }
 .btn {
   font-family: var(--heading-font);
@@ -115,9 +121,19 @@ a {
   font-size: larger;
   font-weight: bold;
 }
+.home-button {
+  background: rgba(86, 2, 22, 0.5);
+  color: var(--background-color);
+}
+.home-button:hover {
+  background: var(--background-color);
+  color: var(--links-color);
+  font-size: larger;
+  font-weight: bold;
+}
 .my-certificates {
   border-radius: 4px;
-  max-width: 300px;
+  max-width: 400px;
 }
 .my-links {
   display: flex;
