@@ -29,6 +29,7 @@ h2 {
   color: var(--links-color);
   border: 1px solid var(--links-color);
   border-radius: 4px;
+  padding: 10px;
 }
 h3 {
   font-size: 20px;
@@ -43,7 +44,7 @@ h4 {
 p {
   color: var(--paragraph-color);
   font-family: var(--paragraph-font);
-  font-size: 18px;
+  font-size: 16px;
 }
 a {
   color: var(--links-color);
