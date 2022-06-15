@@ -28,7 +28,7 @@ h2 {
   background: var(--background-color);
   color: var(--links-color);
   border: 1px solid var(--links-color);
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 4px;
 }
 h3 {
