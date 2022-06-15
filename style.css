@@ -1,5 +1,5 @@
 :root {
-  --heading-color: #560216;
+  --heading-color: rgb(86, 2, 22);
   --paragraph-color: #081e3b;
   --background-color: #fffdfb;
   --links-color: #dd4e69;
@@ -74,7 +74,10 @@ a {
 .text-block {
   background: var(--text-blocks-color);
 }
-
+.paragraph-text {
+  background: rgba(86, 2, 22, 0.5);
+  border-radius: 100px 10px;
+}
 .btn {
   font-family: var(--heading-font);
 }
@@ -111,6 +114,10 @@ a {
   color: var(--background-color);
   font-size: larger;
   font-weight: bold;
+}
+.my-certificates {
+  border-radius: 4px;
+  max-width: 300px;
 }
 .my-links {
   display: flex;
