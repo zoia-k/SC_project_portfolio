@@ -53,6 +53,9 @@ a {
 #logo {
   max-width: 80px;
 }
+#img-owl {
+  max-width: 60px;
+}
 #coding-by {
   color: var(--heading-color);
   opacity: 0.5;
