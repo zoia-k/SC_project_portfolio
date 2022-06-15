@@ -41,9 +41,16 @@ p {
 }
 a {
   color: var(--links-color);
+  text-decoration: none;
 }
 #logo {
   max-width: 80px;
+}
+#coding-by {
+  color: var(--heading-color);
+  opacity: 0.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
 }
 .text-centered {
   text-align: center;
@@ -61,4 +68,12 @@ a {
   font-size: larger;
   font-weight: bold;
   border: 1px solid var(--heading-color);
+}
+.my-links {
+  display: flex;
+  justify-content: space-around;
+  font-family: var(--heading-font);
+}
+.btn {
+  font-family: var(--heading-font);
 }
