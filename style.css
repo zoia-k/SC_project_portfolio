@@ -51,7 +51,14 @@ a {
 .text-block {
   background: var(--text-blocks-color);
 }
-#contact-button {
+.contact-button {
   background: var(--heading-color);
   color: var(--background-color);
+}
+.contact-button:hover {
+  background: var(--text-blocks-color);
+  color: var(--heading-color);
+  font-size: larger;
+  font-weight: bold;
+  border: 1px solid var(--heading-color);
 }
