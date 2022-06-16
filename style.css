@@ -56,6 +56,9 @@ a {
 #img-owl {
   max-width: 60px;
 }
+#img-woman {
+  max-width: 60px;
+}
 #my-ava {
   max-width: 140px;
   border: 1px solid var(--links-color);
@@ -133,13 +136,25 @@ a {
 }
 .lets-see-button {
   background: var(--background-color);
-  color: rgba(86, 2, 22, 0.5);
+  color: var(--links-color);
   border: 1px solid var(--heading-color);
 }
-
+.lets-see-button:hover {
+  background: var(--heading-color);
+  color: var(--background-color);
+  font-size: larger;
+  font-weight: bold;
+}
 .my-certificates {
   border-radius: 4px;
   max-width: 400px;
+}
+.projects-blocks {
+  background: var(--text-blocks-color);
+  border-radius: 100px 10px;
+}
+.projects-img {
+  border: 1px solid var(--links-color);
 }
 .my-links {
   display: flex;
