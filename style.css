@@ -131,6 +131,12 @@ a {
   font-size: larger;
   font-weight: bold;
 }
+.lets-see-button {
+  background: var(--background-color);
+  color: rgba(86, 2, 22, 0.5);
+  border: 1px solid var(--heading-color);
+}
+
 .my-certificates {
   border-radius: 4px;
   max-width: 400px;
