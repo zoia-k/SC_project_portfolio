@@ -154,6 +154,7 @@ a {
   border-radius: 100px 10px;
 }
 .projects-img {
+  max-width: 500px;
   border: 1px solid var(--links-color);
 }
 .my-links {
