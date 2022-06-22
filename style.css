@@ -161,7 +161,7 @@ a {
   justify-content: space-around;
   font-family: var(--heading-font);
 }
-@media (max-width: 576px) {
+@media (max-width: 786px) {
   h1 {
     font-size: 64px;
   }
