@@ -161,3 +161,8 @@ a {
   justify-content: space-around;
   font-family: var(--heading-font);
 }
+@media (max-width: 576px) {
+  .my-certificates {
+    max-width: 300px;
+  }
+}
