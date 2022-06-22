@@ -169,4 +169,7 @@ a {
   .my-certificates {
     max-width: 230px;
   }
+  .projects-img {
+    max-width: 300px;
+  }
 }
