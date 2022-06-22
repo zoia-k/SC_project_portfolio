@@ -162,6 +162,9 @@ a {
   font-family: var(--heading-font);
 }
 @media (max-width: 576px) {
+  h1 {
+    font-size: 64px;
+  }
   .my-certificates {
     max-width: 300px;
   }
