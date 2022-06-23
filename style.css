@@ -56,6 +56,9 @@ a {
 #img-owl {
   max-width: 60px;
 }
+#contact-owl {
+  max-width: 320px;
+}
 #img-woman {
   max-width: 60px;
 }
@@ -156,6 +159,9 @@ a {
 .projects-img {
   max-width: 500px;
   border: 1px solid var(--links-color);
+}
+.contact-img {
+  max-width: 80px;
 }
 .my-links {
   display: flex;
