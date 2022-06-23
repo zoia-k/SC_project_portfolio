@@ -74,7 +74,16 @@ a {
 #about-text {
   border-radius: 10px 100px;
 }
-
+#my-links a {
+  font-size: 24px;
+}
+#my-links a:hover {
+  color: var(--heading-color);
+  font-size: 36px;
+}
+#my-links a:visited {
+  color: var(--heading-color);
+}
 #coding-by {
   color: var(--heading-color);
   opacity: 0.5;
@@ -162,11 +171,6 @@ a {
 }
 .contact-img {
   max-width: 80px;
-}
-.my-links {
-  display: flex;
-  justify-content: space-around;
-  font-family: var(--heading-font);
 }
 
 @media (max-width: 1180px) {
