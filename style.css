@@ -51,7 +51,7 @@ a {
   text-decoration: none;
 }
 #logo {
-  max-width: 80px;
+  max-width: 60px;
 }
 #img-owl {
   max-width: 60px;
@@ -168,6 +168,7 @@ a {
   justify-content: space-around;
   font-family: var(--heading-font);
 }
+
 @media (max-width: 1180px) {
   h1 {
     font-size: 64px;
