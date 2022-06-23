@@ -74,6 +74,11 @@ a {
 #about-text {
   border-radius: 10px 100px;
 }
+p .text-link:hover {
+  color: var(--heading-color);
+  font-size: 18px;
+}
+
 #my-links a {
   font-size: 24px;
 }
