@@ -171,7 +171,7 @@ p .text-link:hover {
   border-radius: 100px 10px;
 }
 .projects-img {
-  max-width: 500px;
+  max-width: 80%;
   border: 1px solid var(--links-color);
 }
 .contact-img {
@@ -186,6 +186,6 @@ p .text-link:hover {
     max-width: 230px;
   }
   .projects-img {
-    max-width: 300px;
+    width: 100%;
   }
 }
